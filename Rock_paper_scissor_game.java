@@ -8,7 +8,7 @@ public class Rock_paper_scissor_game {
         System.out.println("Welcome to Rock-Paper-Scissor");
         System.out.println("1 for Rock \n 2 for Paper \n 3 for Scissor");
         int UserInput = sc.nextInt();
-        int ComputerInput = random.nextInt(3+1);
+        int ComputerInput = random.nextInt(3)+1;
         if (UserInput == ComputerInput){
             System.out.println("tie");
         }
